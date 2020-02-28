@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title> reverse of a number </title>
+</head>
+<body>
+	<script type = "text/javascript">
+	var result;
+	function reverse(num)
+	{
+		var digit,position = 0;
+		if(num<10)
+			return num;
+			result = num % 10;
+			num = Math.floor(num/10);
+			do{
+				digit = num % 10;
+				result = 10 * result + digit;
+				num = Math.floor(num/10);
+			}
+			while(num >= 1);
+			return result;
+	}
+	</script>
+	<script type = "text/javascript">
+		var num1 = prompt("enter a number");
+		result = reverse(num1);
+		document.write("the reversal of "+num1+" "+"is:"+result+"<br/>");
+	</script>
+</body>
+</html>
