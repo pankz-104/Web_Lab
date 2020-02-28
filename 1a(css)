@@ -1,0 +1,78 @@
+  span.bn{
+	color:brown;
+	font-weight:bold;
+}
+
+span.green{
+	color:darkolivegreen;
+	font-weight:bold;
+}
+
+ol.upper-roman{
+	list-style-type:upper-roman;
+}
+
+ol.upper-alpha{
+	list-style-type:upper-alpha;
+}
+
+ol.decimal{
+	list-style-type:decimal;
+}
+
+ol.lower-roman{
+	list-style-type:lower-alpha;
+}
+
+table{
+	border-top-width:medium;
+	border-bottom-width:thick;
+	border-top-color:red;
+	border-bottom-color:blue;
+	border-top-style:dotted;
+	border-bottom-style:dashed;
+}
+
+p.one{
+	margin:0.2in;
+	padding:0.2in;
+	background-color:silver;
+	border-style:dashed;
+}
+
+p.two{
+	margin:0.1in;
+	padding:0.in;
+	background-color:grey;
+	border-style:solid;
+}
+
+p.three{
+	margin:0.3in;
+	padding:0.2in;
+	background-color:lime;
+	border-style:dashed;
+}
+
+p.four{
+	margin:0.4in;
+	background-color:yellow;
+}
+
+
+p.five{
+	padding:0.4in;
+	background-color:aqua;
+}
+
+th.grey{
+	color:grey;
+}
+
+th.red{
+	color:red;
+}
+
+th.orange{
+	color:orange;
+}
