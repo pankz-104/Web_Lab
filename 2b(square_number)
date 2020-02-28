@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>square of number</title>
+</head>
+<body>
+<script type="text/javascript">
+	var num = prompt("enter a number:\n","");
+	if(num>0 && num!=null)
+	{
+		msgstr="number and its square are : \n";
+		for(i=1;i<=num;i++)
+		{
+			msgstr = msgstr+i+"-"+i*i+"\n";
+		}
+		alert(msgstr);
+	}
+	else
+	{
+		alert("no input supplied")
+	}
+</script>
+</body>
+</html>
