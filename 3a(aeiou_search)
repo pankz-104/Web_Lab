@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title> program 3a </title>
+</head>
+<body>
+	<script type = "text/javascript">
+		function TestString(str)
+		{
+			document.write("the given string is: ");
+			document.write("<en>"+str+"</em>"+"<br/>");
+			var i = str.match(/[aeiouAEIOU][a-zA-Z]*/);
+			return i;
+		}
+	</script>
+	<h3> 
+		<script type = "text/javascript">
+			var input_str = prompt("enter some string here","");
+			p = TestString(input_str);
+			document.write("the leftmost vowel is found at index"+" "+p.index);
+		</script>
+	</h3>
+</body>
+</html>
