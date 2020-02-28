@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fibonacci number</title>
+<head>
+<body>
+<script type="text/javascript">
+	function fun(str)
+	{
+		var num = Number(str)
+		var i=0,j=1,k,count;
+		if(num==0)
+			document.write("<h3>"+"No number"+"</h3>");
+		else if(num==1)
+		{
+			document.write("<h3>"+"the fibonnacci series is as follows:"+"</h3>");
+			document.write(i);
+		}
+		else
+		{
+			document.write("<h3>"+"the fibonnacci series is as follows:"+"</h3>");
+			document.write(i);
+			document.write(","+j);
+			for(count=2;count<num;count++)
+			{
+				k = i + j;
+				i = j;
+				j = k;
+				document.write(","+k);
+			}
+		}
+	}
+		var input_str=prompt("enter the limits","");
+		if(input_str=="")
+		{
+			alert("please enter a valid number");
+			input_str = prompt("enter the limits","");
+		}
+fun(input_str);
+	</script>
+</body>
+</html>
