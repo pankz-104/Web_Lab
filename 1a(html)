@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>program 1</title>
+	<link rel="stylesheet" type="text/css"href="lab1.css">
+</head>
+<body>
+	<p><h3>for span</h3></p>
+	<P>my mother has <span class="bn">light brown</span> eyes</P>
+	<p>my mother has <span class="green">light green</span> eyes</p>
+	<br>
+	<P><h3>for ordered list</h3></P>
+	<p>type upper-roman</p>
+	<ol class = "upper-roman">
+		<li>coffee</li>
+		<li>tea</li>
+		<li>cool drinks</li>
+	</ol><br>
+	<p>type upper-alpha</p>
+	<ol class="upper-alpha">
+		<li>coffee</li>
+		<li>tea</li>
+		<li>cool drinks</li>
+	</ol>
+	<p>type decimal</p>
+	<ol class = "decimal">
+		<li>coffee</li>
+		<li>tea</li>
+		<li>cool drinks</li>
+	</ol><br>
+	<p>type lower-roman</p>
+	<ol class = "decimal">
+		<li>coffee</li>
+		<li>tea</li>
+		<li>cool drinks</li>
+	</ol>
+	<br>
+	<p>type lower-alpha</p>
+	<ol class = "lower-alpha"></ol>
+		<li>coffee</li>
+		<li>tea</li>
+		<li>cool drinks</li>
+	</ol>
+	<br>
+	<p>for table</p>
+	<table border = "10">
+		<caption>fruit juice drinks</caption>
+		<tr>
+			<th class="red">apple</th>
+			<th calss="orange">orange</th>
+			<th class="grey">screw driver</th>
+		</tr>
+		<tr>
+			<th class="red"> breakfast</th>
+			<td>0</td>
+			<td>1</td>
+			<td>0</td>
+		</tr>
+		<tr>
+			<th class="grey">dinner</th>
+			<td>0</td>
+			<td>0</td>
+			<td>1</td>
+		</tr>
+	</table>
+	<br>
+	<p class="one">welcome to ait</p>
+	<p class="two">welcome to ait</p>
+	<p class="three">welcome to ait</p>
+	<p class="four">welcome to ait</p>
+	<p class="five">welcome to ait</p>
+</body>
+</html>
