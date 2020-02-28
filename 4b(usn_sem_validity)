@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title> program 4b </title>
+</head>
+<body>
+	<script type = "text/javascript">
+		function validate_usn()
+		{
+			var str1 = document.getElementById("usn");
+			var valid_usn = str1.value.search(/^[1-4]{1}[A-Z]{2}\d{2}[A-Z]{2}\d{3}$/i);
+			var str2 = document.getElementById("semi");
+			var valid_sem = str2.value.search(/^[1-8]{1}$/);
+			if(valid_usn >= 0 && valid_sem >= 0)
+			{
+				alert("valid USn and semester");
+			}
+			else if(valid_usn < 0 && valid_sem >= 0)
+			{
+				alert("invalid USN");
+			}
+			else if(valid_usn >= 0 && valid_sem < 0)
+			{
+				alert("invalid semester");
+			}
+			else
+			{
+				alert("invalid USN and semester");
+			}
+		}
+	</script>
+	<form id = "form1">
+		Enter your USN : <input type = "text" id = "usn"/>
+		<br/>
+		<br/>
+		Enter your semester : <input type = "test" id = "semi"/>
+		<br/>
+		<input type = "button" value = "submit" name = "submit" onclick = "validate_usn()"/>
+		<input type = "reset" value = "reset" name = "reset"/>
+	</form>
+</body>
+</html>	
