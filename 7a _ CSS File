@@ -1,0 +1,30 @@
+Student{
+	font-family : arial;
+	color : red;
+	font-size : 20px;
+}
+
+StudentInfo{
+	font-family : "times new roman";
+	color : blue;
+	font-size : 24px;
+}
+
+USN{
+	font-family : arial;
+	color : green;
+	font-size : 34px;
+}
+
+Name {
+	font-family : arial;
+	color : green;
+	font-size : 20px;
+}
+
+College,Branch,year_of_join,Email{
+	font-family : "times new roman";
+	display : block;
+	color : #000;
+	font-size : 15px;
+}
