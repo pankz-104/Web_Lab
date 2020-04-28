@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title> program 5a </title>
+	<link rel = "stylesheet" type = "text/css" href = "lab5a.css"/>
+</head>
+<body>
+	<script type = "text/javascript">
+		var topLayer = "third";
+		function my_fun(toTop)
+		{
+			var oldTop = document.getElementById(topLayer).style;
+			var newTop = document.getElementById(toTop).style;
+			oldTop.zIndex = "0";
+			newTop.zIndex = "100";
+			topLayer = document.getElementById(toTop).id;
+		}
+	</script>
+	<span class = "text1" id = "first" onmouseover = "my_fun(id);">
+		This is a story about four people;Everybody,Somebody,Anybody, and Nobody. There 
+		was an important job to be done and Everybody was asked to do it.Everybody was sure 
+		somebody would do it.</span>
+		
+	<span class = "text2" id = "second" onmouseover = "my_fun(id);">
+		Once upon a time, there lived a big lion in a jungle.Everyday he hunted and killed many animals 
+		to satisfy his hunger. The animals were worried that oneday none of them would be left alive. </span>
+		
+	<span class = "text3" id = "third" onmouseover = "my_fun(id);">
+		Dassera is one of the most important Hindu festival. It is the festival that celebrates the victoory
+		of lord Rama over Ravaana of lanka on this day, Rama had killed Ravana who had abducted Ramas wife 
+		Sita to the kingdom of lanka. </span>
+</body>
+</html>
