@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<title> safd </title>
+<link rel = "stylesheet" type = "text/css" href = "lab7a.css"/>
+</head>
+<body>
+<student>
+	<StudentInfo>
+		<USN> 1DA17CS104 </USN>
+		<Name> Pankaj Pandey </Name>
+		<college> Dr.AIT </college>
+		<Branch> CSE <Branch>
+		<year_of_join> 2017 <year_of_join>
+		<Email> pankz_104@dr_ait.org </Email>
+	</studentInfo>
+	<StudentInfo>
+		<USN> 1DA17CS005 </USN>
+		<Name> Abyakta Koirala </Name>
+		<college> Dr.AIT </college>
+		<Branch> CSE <Branch>
+		<year_of_join> 2017 <year_of_join>
+		<Email> abyakta@dr_ait.org </Email>
+	</StudentInfo>
+	<StudentInfo>
+		<USN> 1DA17CS149 </USN>
+		<Name> Sandesh Kafle </Name>
+		<college> Dr.AIT </college>
+		<Branch> CSE <Branch>
+		<year_of_join> 2017 <year_of_join>
+		<Email> sandesh@dr_ait.org </Email>
+	</StudentInfo>
+</student>
+</body>
+</html>
