@@ -1,0 +1,29 @@
+.text1 {
+		padding : 1cm;
+		width : 500px;
+		position : absolute;
+		top : 100px;
+		left : 200px;
+		border : solid thick black;
+		background-color : pink;
+	}
+	
+.text2 {
+		padding : 1cm;
+		width : 500px;
+		position : absolute;
+		top : 120px;
+		left : 230px;
+		border : solid thick black;
+		background-color : yellow;
+	}
+	
+.text3	{
+	padding : 1cm;
+	width : 500px;
+	position : absolute;
+	top : 140px;
+	left : 270px;
+	border : solid thick color;
+	background-color : cyan;
+}
