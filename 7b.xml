@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="7b.xsl"?>
+<Student>
+<StudentInfo>
+<USN>1DA17CS104</USN>
+<Name>Pankaj Pandey</Name>
+<College>Dr.Ait</College>
+<Branch>CSE</Branch>
+<Year_of_Join>2017</Year_of_Join>
+<Email>abc@dr-ait.org</Email>
+</StudentInfo>
+</Student>
